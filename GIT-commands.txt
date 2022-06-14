@@ -1,0 +1,36 @@
+1. git init
+2. git status
+3. git add . [add all to STAGING]
+       add file1.php, file2.php etc
+       add *.php [all files with such extension]
+4. git commit -m "comment..."
+** git commit -am "comment..." [Commits files without Staging]
+5. git branch [will list all the brances]
+6. git branch **branchName** [will create new branch]
+7. git checkout **branchName** [will show you details of that branch]
+8. git checkout master [will swich yout to the master branch]
+9. git merge **branchName** [will merge brach with the master file]
+10. git branch -d **branchName** [will delete that branch]
+
+--PUSH TO GITHUB --
+
+01. Log in to Github
+02. Create a new repository ['repo' inshort- from topright +]
+
+
+…or create a new repository on the command line
+echo "# _prac_cms01" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+*git remote add origin https://github.com/pixelfern/_prac_cms01.git [is used to connect]
+**git push -u origin main [main or master]
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/pixelfern/_prac_cms01.git
+git branch -M main
+git push -u origin main
+
+** git clone **git repo link** [select the **www/proj** directory first to download the file]
